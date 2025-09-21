@@ -17,12 +17,12 @@ while True:
         case _:
             message = f"Reminder: '{task}' has an unspecified priority."
 
-    # Include a note that is time-sensitive
+    # Add time-sensitive note
     if time_bound == "yes":
         message += " It requires immediate attention today!"
 
     # Print the reminder
     print(message)
 
-    # Conclude the loop after displaying the reminder a single time
+    # End the loop after showing the reminder once
     break
